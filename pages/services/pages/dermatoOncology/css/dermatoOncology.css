@@ -1,0 +1,25 @@
+.content-bloc {
+  padding-top: 50px;
+  text-align: center;
+}
+.content__wraper {
+  max-width: 700px;
+  padding: 0px 30px 50px 30px;
+  margin: 0px auto;
+  text-align: center;
+}
+.content__h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.content__p {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  font-size: 20px;
+}
+@media (max-width: 620px) {
+  .content__h1 {
+    font-size: 40px;
+  }
+}
