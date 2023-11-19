@@ -1,0 +1,123 @@
+/* .......КОНТЕНТ........ --> */
+/*  */
+.content {
+  padding: 160px 0px 0px 0px;
+}
+
+.services__title {
+  font-size: 64px;
+  line-height: 62px;
+  text-align: center;
+}
+
+.services__content_block {
+  flex-basis: 50%;
+  padding: 20px;
+}
+.services__block_flex {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 60px;
+}
+.services__content {
+  display: flex;
+}
+.services__content_img {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/services/servicesImg7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.services__content_img-1 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/services/servicesImg1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.services__content_img-2 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/services/servicesImg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.services__content_img-3 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/services/servicesImg3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.services__content_img-4 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/services/servicesImg4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.services__content_img-5 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/services/servicesImg5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.services__content_img-6 {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/services/servicesImg6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.services__content_span {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  color: #fff;
+  font-size: 35px;
+  font-family: sans-serif;
+  text-shadow: 3px 3px 3px #000;
+}
+
+@media (max-width: 980px) {
+  .services__content_span {
+    font-size: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .services__content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .services__content_span {
+    left: 5px;
+    font-size: 16px;
+  }
+}
+
+/*  */
+/* .......КОНТЕНТ........ --> */
